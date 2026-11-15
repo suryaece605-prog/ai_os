@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Install AI OS to this laptop
+Comment=Install AI OS on the hard drive (back up your files first)
+Exec=aios-install
+Icon=system-software-install
+Categories=System;
+Terminal=false

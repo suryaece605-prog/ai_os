@@ -1,0 +1,17 @@
+#!/bin/sh
+# Installs Ollama (a local AI runtime) and downloads a small model.
+# Needs internet. In a live session everything is stored in RAM, so use a
+# small model and a laptop with 8 GB+ RAM, or use the Claude API instead.
+set -e
+MODEL="${1:-llama3.2:3b}"
+
+if ! command -v ollama >/dev/null 2>&1; then
+  echo "Installing Ollama (official installer from ollama.com)..."
+  curl -fsSL https://ollama.com/install.sh | sudo sh
+fi
+
+echo "Downloading model $MODEL (can take a while)..."
+ollama pull "$MODEL"
+
+echo
+echo "Done. In AI OS choose 'ollama' (or 'auto') as the AI."

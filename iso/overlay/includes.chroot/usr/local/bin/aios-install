@@ -1,0 +1,4 @@
+#!/bin/sh
+# Starts the graphical installer. Nothing on the disk changes until you
+# confirm the final "Install" step inside the installer.
+exec sudo -E calamares "$@"

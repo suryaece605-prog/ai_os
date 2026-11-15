@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=AI OS Assistant
+Comment=Chat with your computer
+Exec=python3 /opt/aios/aios_gui.py
+Icon=utilities-terminal
+Categories=Utility;

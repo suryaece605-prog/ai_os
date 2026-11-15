@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=AI OS Terminal
+Comment=Chat with your computer in a terminal
+Exec=python3 /opt/aios/aios.py
+Terminal=true
+Icon=utilities-terminal
+Categories=Utility;

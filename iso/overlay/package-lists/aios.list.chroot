@@ -1,0 +1,42 @@
+# Desktop
+xorg
+xfce4
+xfce4-terminal
+lightdm
+desktop-base
+dbus-x11
+fonts-dejavu
+mousepad
+
+# Networking (Wi-Fi works from the desktop tray)
+network-manager
+network-manager-gnome
+firefox-esr
+
+# AI OS runtime
+python3
+python3-tk
+ca-certificates
+curl
+zstd
+xdg-utils
+sudo
+nano
+
+# Wi-Fi / GPU firmware so common laptops work
+firmware-linux
+firmware-iwlwifi
+firmware-realtek
+firmware-atheros
+firmware-misc-nonfree
+pciutils
+
+# Installer: lets you install AI OS onto a laptop's disk (UEFI and old BIOS)
+calamares
+calamares-settings-debian
+grub-efi-amd64-bin
+grub-efi-amd64-signed
+grub-pc-bin
+shim-signed
+efibootmgr
+os-prober
